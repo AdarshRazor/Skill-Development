@@ -17,3 +17,16 @@ REST API - Stateless backend (doesnot care who is requesting.). Request will com
 ![image](https://user-images.githubusercontent.com/33658792/230185220-60effc65-3364-47b0-9787-11e86c33070d.png)
 
 TYPE: GET, POST, PUT, DELETE, PATCH
+
+* GET: The GET method is used to retrieve data from the server.
+
+* POST: The POST method sends data to the server and creates a new resource.
+
+* PUT: The PUT method is most often used to update an existing resource.
+
+* PATCH: The PATCH method is very similar to the PUT method because it also modifies an existing resource. The difference is that for the PUT method, **the request body contains the complete new version**, whereas for the PATCH method, **the request body only needs to contain the specific changes to the resource**, specifically a set of instructions describing how that resource should be changed, and the API service will create a new version according to that instruction.
+
+* DELETE: The DELETE method is used to delete a resource specified by its URI.
+
+
+To represent a data, we can change it from JSON to HTML like below.
