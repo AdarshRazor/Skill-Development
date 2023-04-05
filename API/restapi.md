@@ -11,3 +11,9 @@ App send request to server(nodejs). Username and Password. Server will send resp
 Whole in JSON or XML format. 
 
 Whole function is called API
+
+REST API - Stateless backend (doesnot care who is requesting.). Request will come and accordingly will work.
+
+
+
+TYPE: GET, POST, PUT, DELETE, PATCH
