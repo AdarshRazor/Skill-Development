@@ -14,6 +14,6 @@ Whole function is called API
 
 REST API - Stateless backend (doesnot care who is requesting.). Request will come and accordingly will work.
 
-
+![image](https://user-images.githubusercontent.com/33658792/230185220-60effc65-3364-47b0-9787-11e86c33070d.png)
 
 TYPE: GET, POST, PUT, DELETE, PATCH
