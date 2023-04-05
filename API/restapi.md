@@ -28,5 +28,6 @@ TYPE: GET, POST, PUT, DELETE, PATCH
 
 * DELETE: The DELETE method is used to delete a resource specified by its URI.
 
-
 To represent a data, we can change it from JSON to HTML like below.
+
+![image](https://user-images.githubusercontent.com/33658792/230186537-aaf089bf-7815-4e9c-8a76-a978257b3c5b.png)
