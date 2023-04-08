@@ -37,3 +37,5 @@ To represent a data, we can change it from JSON to HTML like below.
 ![image](https://user-images.githubusercontent.com/33658792/230186537-aaf089bf-7815-4e9c-8a76-a978257b3c5b.png)
 
 Example: HTTP and Path parameters to get response from API server
+
+![image](https://user-images.githubusercontent.com/33658792/230722393-e4755868-00de-4e57-87ee-0e4aa646a75a.png)
