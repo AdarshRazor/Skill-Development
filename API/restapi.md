@@ -22,6 +22,9 @@ http://localhost.com/api/users
 
 TYPE: GET, POST, PUT, DELETE, PATCH
 
+![image](https://user-images.githubusercontent.com/33658792/230722470-ea67907e-d0b3-4269-bbbb-ef59ae1ba03c.png)
+
+
 * GET: The GET method is used to retrieve data from the server.
 
 * POST: The POST method sends data to the server and creates a new resource.
