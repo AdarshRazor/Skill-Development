@@ -14,6 +14,10 @@ Whole function is called API
 
 REST API - Stateless backend (doesnot care who is requesting.). Request will come and accordingly will work.
 
+```
+http://localhost.com/api/users
+```
+
 ![image](https://user-images.githubusercontent.com/33658792/230185220-60effc65-3364-47b0-9787-11e86c33070d.png)
 
 TYPE: GET, POST, PUT, DELETE, PATCH
@@ -31,3 +35,5 @@ TYPE: GET, POST, PUT, DELETE, PATCH
 To represent a data, we can change it from JSON to HTML like below.
 
 ![image](https://user-images.githubusercontent.com/33658792/230186537-aaf089bf-7815-4e9c-8a76-a978257b3c5b.png)
+
+Example: HTTP and Path parameters to get response from API server
