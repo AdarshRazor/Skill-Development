@@ -1,7 +1,6 @@
 # Azure Migrate
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/33658792/232046383-952aafdc-3aa4-4af7-85dd-49a981dd408f.png">
  <img src="https://user-images.githubusercontent.com/33658792/232046478-79c9c521-ee93-4183-aa79-24c9634a3864.png">
 <p>
 
@@ -95,6 +94,10 @@ Start-AzMigrateServerMigration -ResourceGroupName $resourceGroupName -ServerName
 <br>
 
 ## ⭕ Why is it important ?
+ 
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/33658792/232046383-952aafdc-3aa4-4af7-85dd-49a981dd408f.png">
+</p>
 
 Imagine you have a toy in your room that you really like playing with. But one day, you have to move to a new house. You want to take your toy with you, but you can't just pick it up and carry it over. **You need a big truck to help you move all your toys and other things to the new house.**
 
