@@ -1,5 +1,10 @@
 # Azure Migrate
 
+<p align="center">
+![Azure Migrate](https://user-images.githubusercontent.com/33658792/232046383-952aafdc-3aa4-4af7-85dd-49a981dd408f.png)
+![image](https://user-images.githubusercontent.com/33658792/232046478-79c9c521-ee93-4183-aa79-24c9634a3864.png)
+<p>
+
 Azure Migrate is a tool that helps you move your computer applications, data, and other important information to the cloud. Think of it as a big truck that transports all of your things from your old house to your new one, but in this case, your old house is your computer and the new one is the cloud.
 
 The tool works by scanning your computer and analyzing what you have on it. It then recommends the best way to move everything to the cloud. This can include creating a plan for moving everything at once or moving things in smaller groups over time.
@@ -8,7 +13,10 @@ Once everything is moved to the cloud, you can access your applications and data
 
 > Overall, Azure Migrate is a helpful tool for anyone who wants to move their computer applications and data to the cloud.
 
-(![Strategies](https://user-images.githubusercontent.com/33658792/232046025-7dd568fb-6461-442f-91c6-43131e860c51.png)
+<br>
+ 
+### Strategies / Approach
+![Strategies](https://user-images.githubusercontent.com/33658792/232046025-7dd568fb-6461-442f-91c6-43131e860c51.png)
 
 <br>
 
