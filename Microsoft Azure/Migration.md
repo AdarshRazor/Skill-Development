@@ -1,8 +1,8 @@
 # Azure Migrate
 
 <p align="center">
-![Azure Migrate](https://user-images.githubusercontent.com/33658792/232046383-952aafdc-3aa4-4af7-85dd-49a981dd408f.png)
-![image](https://user-images.githubusercontent.com/33658792/232046478-79c9c521-ee93-4183-aa79-24c9634a3864.png)
+ <img src="https://user-images.githubusercontent.com/33658792/232046383-952aafdc-3aa4-4af7-85dd-49a981dd408f.png">
+ <img src="https://user-images.githubusercontent.com/33658792/232046478-79c9c521-ee93-4183-aa79-24c9634a3864.png">
 <p>
 
 Azure Migrate is a tool that helps you move your computer applications, data, and other important information to the cloud. Think of it as a big truck that transports all of your things from your old house to your new one, but in this case, your old house is your computer and the new one is the cloud.
