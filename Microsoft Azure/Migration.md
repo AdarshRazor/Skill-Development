@@ -8,6 +8,8 @@ Once everything is moved to the cloud, you can access your applications and data
 
 > Overall, Azure Migrate is a helpful tool for anyone who wants to move their computer applications and data to the cloud.
 
+(![Strategies](https://user-images.githubusercontent.com/33658792/232046025-7dd568fb-6461-442f-91c6-43131e860c51.png)
+
 <br>
 
 ## ⭕ Steps to perform a migration
