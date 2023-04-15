@@ -23,4 +23,5 @@ app.listen("5000",() => {
 ## Troubleshooting
 
 Q. 'nodemon' is not recognized as an internal or external command
+
 A. npm install -g nodemon 
