@@ -22,8 +22,3 @@ mongoose.connect(process.env.CONNECTION_URL, {
 const dotenv = require('dotenv');
 dotenv.config();
 ```
-
-* create category.js, post.js, auth.js, user.js and move to category.js
-
-(A)<br>
-asdasdasd
