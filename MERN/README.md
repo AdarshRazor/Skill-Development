@@ -19,8 +19,21 @@ app.listen("5000",() => {
     console.log("backend running")
 })
 ```
+* Connect mongoose
+```js
+mongoose.
+    connect(process.env.CONNECT_URL, {
+        useNewUrlParser: true,
+        UseUnifiedTopology: true
+    })
+    .then(console.log("Connected to Mongoose"))
+    .catch((err) => console.log(err))
+```
 
 ## Troubleshooting
 
 Q. 'nodemon' is not recognized as an internal or external command <br>
 A. npm install -g nodemon 
+
+Q. Running the server <br>
+A. npm start
