@@ -13,3 +13,5 @@ const CategorySchema = new mongoose.Mongoose.Schema({
 
 module.exports = mongoose.model("category", CategorySchema)
 ```
+* Create the same schema for post.js, user.js
+* Move to index.md (A)
