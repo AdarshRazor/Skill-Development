@@ -14,7 +14,7 @@ Once everything is moved to the cloud, you can access your applications and data
 
 <br>
  
-### Strategies / Approach
+## ⭕ Strategies / Approach
 ![Strategies](https://user-images.githubusercontent.com/33658792/232046025-7dd568fb-6461-442f-91c6-43131e860c51.png)
  
 * Set up prerequisites, prepare Azure subscription, and ensure that local and cloud environments have the needed permissions.
