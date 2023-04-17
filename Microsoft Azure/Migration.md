@@ -16,6 +16,16 @@ Once everything is moved to the cloud, you can access your applications and data
  
 ### Strategies / Approach
 ![Strategies](https://user-images.githubusercontent.com/33658792/232046025-7dd568fb-6461-442f-91c6-43131e860c51.png)
+ 
+* Set up prerequisites, prepare Azure subscription, and ensure that local and cloud environments have the needed permissions.
+* Configure the Azure Migrate project, choose the necessary tools for assessment and migration.
+* Download a virtual machine appliance and deploy it into the local environment as a virtual machine.
+* Start discovering virtual machines and dependencies. Review the assessment and dependencies from Azure Migrate while scoping the target migration.
+* Replicate virtual machines from the local environment into Azure storage.
+* Test virtual machines using a test non-production virtual network.
+* Migrate virtual machines into production using a production VNet.
+ 
+ To learn about more strategies, Please click [here](https://www.fastdev.com/blog/blog/4-common-strategies-for-azure-cloud-migration/)
 
 <br>
 
