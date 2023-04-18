@@ -6,15 +6,12 @@
 * intall the important modules - dotenv, express, mongoose, path etc
 * *package.json* - "start": "nodemon index.js" -  starts a Node.js server and watches for changes in the index.js file. Remove the test line from package.json
 
-create index.js
-create .env
+create index.js <br>
+create .env <br>
 create model -> routes (inside model)
 
 ## Index.js
 <link to the file>
-
-----
-
 
 
 * create category.js, post.js, user.js under model folder and move to category.js
