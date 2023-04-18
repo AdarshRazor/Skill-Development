@@ -126,3 +126,7 @@ Similarly, when companies have their computer programs and data on their own ser
 * Complex environments: If your organization has complex IT environments with many servers and applications, it may be challenging to identify all the dependencies and ensure that everything is migrated properly.
 
 * Cost considerations: Migrating to the cloud can involve additional costs, such as Azure subscription fees, data transfer costs, and potentially higher licensing costs. You need to carefully evaluate the costs involved and plan accordingly.
+
+## ⭕ Learning Videos
+
+[Migrate on-premise servers to Azure Cloud](https://www.youtube.com/watch?v=OIH_i4OtXWs&ab_channel=AcutelearnTechnologies)
