@@ -2,6 +2,8 @@ const router = require('express').Router();
 const User = require('../model/user')
 const bcrypt = require('bcrypt')
 
+
+// Registering users
 router.post("/register", async (req, res) => {
     try {
         const salt = await bcrypt.genSalt(10)
@@ -19,5 +21,27 @@ router.post("/register", async (req, res) => {
         res.status(500).json(error)
     }
 })
+
+//Login user
+router.post("/login", async (req, res) => {
+    try{
+        const user = await User.findOne({username: req.body.username})
+
+        // if no user
+        !user && res.status(400).json("Wrong username")
+
+        // if same user then compare password
+        const validate = await bcrypt.compare(req.body.password, user.password)
+
+        // If not validate password
+        !validate && res.status(400).json("Wrong Credentials")
+
+        const { password, ...other} = user._doc
+        res.status(200).json(other) 
+    } catch (error) {
+        res.status(500).json(error)
+    }
+})
+
 
 module.exports = router
