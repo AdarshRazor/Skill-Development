@@ -8,20 +8,22 @@
 
 create index.js <br>
 create .env <br>
-create model -> routes (inside model)
+create model folder <br>
+Create routes folder
 
 ## Index.js
 <link to the file>
 
+> (A)
 
 * create category.js, post.js, user.js under model folder and move to category.js
 
-⭕ (A)<br>
+> (B)
 
 * Create auth.js, categories.js, posts.js and user.js inside routes
 * move to auth.js <link>
 
-
+> (C)
 
 
 
@@ -34,3 +36,9 @@ A. npm install -g nodemon
 
 Q. Running the server <br>
 A. npm start
+
+Q. What are models in MERN stack? <br>
+A. Model represents the data structure and logic of a MongoDB collection. The model defines how the data is stored and retrieved from the database, and how it is used by the application.
+
+Q. What are Routes in MERN stack? <br>
+A. Files that define the routes and associated middleware functions for the application's API
