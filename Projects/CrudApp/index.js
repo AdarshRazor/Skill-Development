@@ -2,12 +2,21 @@ const express = require("express")
 const app = express()
 const dotenv = require("dotenv")
 const mongoose = require("mongoose")
+
+const multer = require("multer")
+const path = require("path")
+
 const authRoute = require("./routes/auth")
-//const authUser = require("./routes/user")
+const authUser = require("./routes/user")
+const authPost = require("./routes/posts")
+const authCat = require("./routes/categories")
 
+//---- step : 1
 dotenv.config()
-
+//---- step : 2.2
 app.use(express.json())
+//---- step : 2.3 last ma file crate garne time
+app.use("/images", express.static(path.join(__dirname, "/images")))
 
 mongoose.connect(process.env.CONNECTION_URL, {
         useNewUrlParser: true,
@@ -16,10 +25,25 @@ mongoose.connect(process.env.CONNECTION_URL, {
     .then(console.log("Connected to Mongoose"))
     .catch((err) => console.log(err))
 
+const storage = multer.diskStorage({
+  destination: (req, file, callb) => {
+    callb(null, "images")
+  },
+  filename: (req, file, callb) => {
+    //callb(null, "file.png")
+    callb(null, req.body.name)
+  },
+})
+const upload = multer({ storage: storage })
+app.post("/upload", upload.single("file"), (req, res) => {
+  res.status(200).json("File has been uploaded")
+})
 
 app.use("/auth", authRoute)
-//app.use("/users", authUser)
+app.use("/users", authUser)
+app.use("/post", authPost)
+app.use("/category", authCat)
 
 app.listen("5000",() => {
     console.log("backend running")
-})
+}) 
